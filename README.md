@@ -11,6 +11,6 @@ Then, 4 is even, so you divide it by 2, thus get 2, and since it's still an numb
 
 ## Run Program
 
-```python
+```bash
 python main.py N
 ```
