@@ -13,12 +13,12 @@ def main():
 def collatzArr(n: int):
     arr = []
     while n != 1:
-        arr.append()
+        arr.append(n)
         if n % 2 == 0:
             n /= 2
         else:
             n = 3 * n + 1
-    return
+    return arr
 
 
 if __name__ == "__main__":
