@@ -8,6 +8,8 @@ from math import log
 def main():
 
     inputs = [7, 26, 72101241]
+    X_LABEL = "Stopping Points"
+    Y_LABEL = "Hailstone numbers"
 
     for n in inputs:
         plt.figure(figsize=(9.5, 4))
@@ -17,9 +19,6 @@ def main():
         logarithmic = list(map(lambda x: log(x), data))
 
         x = np.arange(len(data))
-
-        X_LABEL = "Stopping Points"
-        Y_LABEL = "Hailstone numbers"
 
         plt.subplots_adjust(left=0.1, bottom=0.2, right=0.9, top=0.9, wspace=0.4, hspace=0.4)
 
