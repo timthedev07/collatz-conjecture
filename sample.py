@@ -39,7 +39,6 @@ def main():
         plt.savefig(f"out/n={n}.pdf")
 
 
-"""Generate an array of numbers containing all the hailstone numbers in the sequence"""
 
 
 if __name__ == "__main__":
