@@ -7,9 +7,9 @@ from math import log
 # this program computes the frequency of each digit being a leading digit among all computed hailstone numbers
 def main():
 
-    inputs = [7, 26, 72101241]
-    X_LABEL = "Stopping Points"
-    Y_LABEL = "Hailstone numbers"
+    inputs: list[int] = [7, 26, 72101241]
+    X_LABEL: str = "Stopping Points"
+    Y_LABEL: str = "Hailstone numbers"
 
     for n in inputs:
         plt.figure(figsize=(9.5, 4))
