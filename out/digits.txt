@@ -1,0 +1,9 @@
+Digit 1: 28.81%
+Digit 2: 17.46%
+Digit 3: 11.66%
+Digit 4: 12.15%
+Digit 5: 8.03%
+Digit 6: 5.51%
+Digit 7: 5.75%
+Digit 8: 5.66%
+Digit 9: 4.97%
