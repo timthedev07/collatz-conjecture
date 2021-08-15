@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from typing import List, Union
 
 
 # this program computes the frequency of each digit being a leading digit among all computed hailstone numbers
@@ -10,7 +11,7 @@ def main():
 """Generate an array of numbers containing all the hailstone numbers in the sequence"""
 
 
-def collatzArr(n: int, asStr: bool) -> list[int]:
+def collatzArr(n: int, asStr: bool = False) -> List[Union[int, str]]:
     arr = []
     while n != 1:
         if n % 2 == 0:
