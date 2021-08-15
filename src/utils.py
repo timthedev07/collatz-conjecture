@@ -17,7 +17,3 @@ def collatzArr(n: int, asStr: bool = False) -> List[Union[int, str]]:
         return list(map((lambda x: str(x)), arr))
 
     return arr
-
-
-if __name__ == "__main__":
-    main()

@@ -1,0 +1,13 @@
+README.md
+setup.py
+collatz_conjecture.egg-info/PKG-INFO
+collatz_conjecture.egg-info/SOURCES.txt
+collatz_conjecture.egg-info/dependency_links.txt
+collatz_conjecture.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/sample.py
+src/utils.py
+src/digits/__init__.py
+src/digits/data.py
+src/digits/plot.py
