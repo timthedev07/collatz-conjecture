@@ -1,11 +1,4 @@
-import numpy as np
-import matplotlib.pyplot as plt
 from typing import List, Union
-
-
-# this program computes the frequency of each digit being a leading digit among all computed hailstone numbers
-def main():
-    pass
 
 
 """Generate an array of numbers containing all the hailstone numbers in the sequence"""

@@ -1,5 +1,6 @@
-import os, sys
+import sys
 from tqdm import tqdm
+from ..utils import collatzArr
 
 
 def main():
