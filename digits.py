@@ -17,7 +17,7 @@ def main():
     }
 
     # number of samples
-    N: int = 1000000000
+    N: int = 1000000
 
     totalNums = 0
 
