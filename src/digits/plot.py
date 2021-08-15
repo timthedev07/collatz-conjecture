@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    data = loadData("../out/digits.txt")
+    data = loadData("../../out/digits.txt")
 
 
 """Read digits.txt"""

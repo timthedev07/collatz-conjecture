@@ -35,7 +35,7 @@ def main():
         plt.xlabel(X_LABEL)
         plt.ylabel(Y_LABEL)
 
-        plt.savefig(f"out/plots/samples/n={n}.pdf")
+        plt.savefig(f"../../out/plots/samples/n={n}.pdf")
 
 
 if __name__ == "__main__":

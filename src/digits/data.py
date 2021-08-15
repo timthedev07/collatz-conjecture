@@ -30,7 +30,7 @@ def main():
 
     percentages = {k: (lambda x: f"{round((x / totalNums) * 100, 2)}%\n")(v) for k, v in data.items()}
 
-    with open("../out/digits.txt", "w") as f:
+    with open("../../out/digits.txt", "w") as f:
         f.writelines(list(map((lambda kv: f"Digit {kv[0]}: {kv[1]}"), percentages.items())))
         f.write("\nOriginal data:\n")
 
