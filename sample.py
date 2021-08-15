@@ -1,12 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from stats import collatzArr
+from utils import collatzArr
 from math import log
 
 
 # this program computes the frequency of each digit being a leading digit among all computed hailstone numbers
 def main():
-
     inputs: list[int] = [7, 26, 72101241]
     X_LABEL: str = "Stopping Points"
     Y_LABEL: str = "Hailstone numbers"
@@ -37,8 +36,6 @@ def main():
         plt.ylabel(Y_LABEL)
 
         plt.savefig(f"out/n={n}.pdf")
-
-
 
 
 if __name__ == "__main__":
