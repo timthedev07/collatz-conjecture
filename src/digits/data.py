@@ -1,6 +1,6 @@
 import sys
 from tqdm import tqdm
-from ..utils import collatzArr
+from src.utils import collatzArr
 
 
 def main():
