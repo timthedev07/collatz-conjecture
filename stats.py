@@ -10,14 +10,17 @@ def main():
 """Generate an array of numbers containing all the hailstone numbers in the sequence"""
 
 
-def collatzArr(n: int):
+def collatzArr(n: int, asStr: bool):
     arr = []
     while n != 1:
-        arr.append(n)
         if n % 2 == 0:
             n /= 2
         else:
             n = 3 * n + 1
+
+    if asStr:
+        return list(map((lambda x: str(x)), arr))
+
     return arr
 
 
