@@ -24,10 +24,8 @@ def main():
         count += 1
 
     print(
-        f"""
-  Stopping time = {count}
-  Highest number reached = {highest}
-  """
+        f"""Stopping time = {count}
+  Highest number reached = {highest}"""
     )
 
 
