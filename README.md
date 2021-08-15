@@ -9,8 +9,16 @@ Then, 4 is even, so you divide it by 2, thus get 2, and since it's still an even
 
 ![gif](./assets/infinite-loop.gif)
 
-## Run Program
+## Run Main Program
 
 ```bash
 python main.py N
 ```
+
+## [digits.py](digits.py)
+
+A program that computes the number of times each digit occurs among all the hailstone numbers generated using all numbers between 1 and 1 billion inclusive.
+
+## [samples.py](samples.py)
+
+A program that generates a few samples.
