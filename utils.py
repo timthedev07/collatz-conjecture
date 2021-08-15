@@ -14,6 +14,7 @@ def main():
 def collatzArr(n: int, asStr: bool = False) -> List[Union[int, str]]:
     arr = []
     while n != 1:
+        arr.append(n)
         if n % 2 == 0:
             n /= 2
         else:
