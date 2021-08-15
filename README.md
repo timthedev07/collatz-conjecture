@@ -22,3 +22,9 @@ A program that computes the number of times each digit occurs among all the hail
 ## [samples.py](samples.py)
 
 A program that generates a few samples.
+
+## Complaints
+
+If it wasn't for numpy and matplotlib, I won't use python.
+I hate this language.
+Like, it's even that complex just to import some function from another file!
