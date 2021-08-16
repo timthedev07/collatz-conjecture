@@ -9,6 +9,8 @@ def main():
 
     plt.plot(data)
     plt.fill_between(list(range(len(data))), data)
+    plt.xlabel("Digits")
+    plt.ylabel("Frequencies")
     plt.show()
 
 
