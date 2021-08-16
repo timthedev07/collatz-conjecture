@@ -7,3 +7,14 @@ Digit 6: 5.92%
 Digit 7: 5.78%
 Digit 8: 5.46%
 Digit 9: 4.8%
+
+Original data:
+Digit 1: 38527446
+Digit 2: 23032297
+Digit 3: 15726325
+Digit 4: 14761103
+Digit 5: 10521251
+Digit 6: 7775840
+Digit 7: 7596054
+Digit 8: 7179256
+Digit 9: 6314852
