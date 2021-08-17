@@ -11,7 +11,7 @@ def main():
     plt.fill_between(list(range(len(data))), data)
     plt.xlabel("Digits")
     plt.ylabel("Frequencies")
-    plt.savefig("../../out/plots/digits.pdf")
+    plt.savefig("../../out/plots/digits.svg")
 
 
 """Read digits.txt"""
