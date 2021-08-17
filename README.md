@@ -9,6 +9,10 @@ Then, 4 is even, so you divide it by 2, thus get 2, and since it's still an even
 
 ![gif](./assets/infinite-loop.gif)
 
+## Benford's Law
+
+![plot](./out/plots/digits.svg)
+
 ## Run Main Program
 
 ```bash
